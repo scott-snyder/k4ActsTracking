@@ -20,6 +20,9 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.18)
 
 project(k4ActsTracking LANGUAGES CXX)
 
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0167 NEW)
+
 find_package(ROOT COMPONENTS RIO Tree)
 find_package(EDM4HEP)
 find_package(k4FWCore)
