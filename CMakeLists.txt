@@ -36,7 +36,11 @@ option(K4ACTSTRACKING_BUILD_GNN
   OFF)
 include(cmake/MaybeBuildActs.cmake)
 
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0167 NEW)
+
 find_package(EDM4HEP REQUIRED)
+
 find_package(k4FWCore REQUIRED)
 set(ACTS_COMPONENTS Core PluginDD4hep)
 if(K4ACTSTRACKING_BUILD_GNN)
