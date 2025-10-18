@@ -44,7 +44,7 @@ public:
   using VolumeSurfaceMap = std::unordered_map<uint64_t, const Acts::Surface*>;
 
 private:
-  dd4hep::Detector* m_dd4hepGeo = nullptr;
+  const dd4hep::Detector* m_dd4hepGeo = nullptr;
 
   /// DD4hep surface map
   std::map<int64_t, dd4hep::rec::Surface*> m_surfaceMap;
