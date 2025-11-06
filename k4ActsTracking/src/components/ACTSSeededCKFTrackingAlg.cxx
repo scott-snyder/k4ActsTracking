@@ -55,6 +55,8 @@
 // Standard
 #include <chrono>
 
+using namespace Acts::UnitLiterals;
+
 // Track fitting definitions
 using TrackContainer = Acts::TrackContainer<Acts::VectorTrackContainer, Acts::VectorMultiTrajectory, std::shared_ptr>;
 using TrackFinderOptions = Acts::CombinatorialKalmanFilterOptions<TrackContainer>;

@@ -77,7 +77,7 @@ namespace ACTSTracking {
     const Acts::Vector3         zeroPos(0, 0, 0);
     Acts::Result<Acts::Vector3> fieldRes = magneticField->getField(zeroPos, magCache);
     if (!fieldRes.ok()) {
-      throw std::runtime_error("Field lookup error: " + fieldRes.error().value());
+      throw std::runtime_error("Field lookup error: " + std::to_string(fieldRes.error().value()));
     }
     Acts::Vector3 field = *fieldRes;
 
@@ -106,7 +106,7 @@ namespace ACTSTracking {
 
       fieldRes = magneticField->getField(hitPos, magCache);
       if (!fieldRes.ok()) {
-        throw std::runtime_error("Field lookup error: " + fieldRes.error().value());
+        throw std::runtime_error("Field lookup error: " + std::to_string(fieldRes.error().value()));
       }
       field = *fieldRes;
 
