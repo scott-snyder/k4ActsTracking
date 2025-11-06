@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "3a77be679f03b3837a9e5cff9385fcba694eeaf9",
-  "head": "b219683499adb05f2182b98bffe0dfdf1804a83c",
-  "applied": [
+  "prev": "49efb63a626c19ef8f336889291d05bf7c05c2d0",
+  "head": "dcdf90b26c85b9a304af1e49587e7a1d284bd6f7",
+  "applied": [],
+  "unapplied": [
     "cxx23",
     "cmakewarn",
     "danglewarn",
     "constGeo"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
