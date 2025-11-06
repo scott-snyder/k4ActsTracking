@@ -27,7 +27,7 @@ EmptyAlg::~EmptyAlg() {}
 StatusCode EmptyAlg::initialize() { return StatusCode::SUCCESS; }
 
 StatusCode EmptyAlg::execute(const EventContext&) const {
-  std::cout << "HALLO WELT!" << std::endl;
+  std::cout << "HALLO WELT! " << m_member << " " << std::endl;
   return StatusCode::SUCCESS;
 }
 
