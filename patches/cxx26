@@ -1,0 +1,6 @@
+Bottom: 28fdb6f031d92248d93fc0e8a29e98c361347b21
+Top:    28fdb6f031d92248d93fc0e8a29e98c361347b21
+Author: sss <sss@karma>
+Date:   2025-12-13 14:21:08 -0500
+
+Allow compiling with C++26.
