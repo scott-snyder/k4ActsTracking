@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "1862594ed89e23f628222e00e370e9a4edfcb19c",
-  "head": "79e1e342fde49faacff1fb4cb1cd9c8627d1240d",
-  "applied": [
+  "prev": "53ec7a4ecf0e4f6ddf9cab85667ee54d64706099",
+  "head": "3aa609729a6151563fd25d5ebf52ebf2f942ed81",
+  "applied": [],
+  "unapplied": [
     "cmakewarn",
     "constGeo",
     "clang",
     "cxx26"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
