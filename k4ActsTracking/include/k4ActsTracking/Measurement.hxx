@@ -99,11 +99,18 @@ namespace ACTSTracking {
 
     const SubspaceIndices& subspaceIndices() const { return m_subspaceIndices; }
 
-    template <std::size_t dim> Acts::SubspaceIndices<dim> subspaceIndices() const {
-      assert(dim == size());
+    template <std::size_t dim>
+    requires (dim == kFullSize)
+    Acts::SubspaceIndices<dim> subspaceIndices() const {
       Acts::SubspaceIndices<dim> result;
       std::copy(m_subspaceIndices.begin(), m_subspaceIndices.end(), result.begin());
       return result;
+    }
+
+    template <std::size_t dim>
+    requires (dim != kFullSize)
+    Acts::SubspaceIndices<dim> subspaceIndices() const {
+      std::abort();
     }
 
     Acts::BoundSubspaceIndices boundSubsetIndices() const {
