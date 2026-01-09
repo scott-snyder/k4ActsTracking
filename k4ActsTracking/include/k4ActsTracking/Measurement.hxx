@@ -108,14 +108,21 @@ namespace ACTSTracking {
 
     const SubspaceIndices& subspaceIndices() const { return m_subspaceIndices; }
 
-    template <std::size_t dim> Acts::SubspaceIndices<dim> subspaceIndices() const {
-      assert(dim == size());
+    template <std::size_t dim>
+    requires (dim == kFullSize)
+    Acts::SubspaceIndices<dim> subspaceIndices() const {
       Acts::SubspaceIndices<dim> result;
       // Copy exactly dim elements (== size(), see assert above) so the compiler can
       // prove the destination bound; copying the full runtime-sized range trips
       // -Werror=array-bounds on GCC 15.
       std::copy_n(m_subspaceIndices.begin(), dim, result.begin());
       return result;
+    }
+
+    template <std::size_t dim>
+    requires (dim != kFullSize)
+    Acts::SubspaceIndices<dim> subspaceIndices() const {
+      std::abort();
     }
 
     Acts::BoundSubspaceIndices boundSubsetIndices() const {
