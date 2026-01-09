@@ -41,8 +41,6 @@
 #include <string>
 #include <vector>
 
-using namespace Acts::UnitLiterals;
-
 /**
  * @brief Reconstruction algorithm for ACTSTracking
  * This code performs reconstruction by looping over all the
@@ -126,13 +124,13 @@ protected:
 	 * @brief Track fit parameters
 	 */
   ///@{
-  Gaudi::Property<double> m_initialTrackError_pos{this, "InitialTrackError_Pos", 10_um,
+  Gaudi::Property<double> m_initialTrackError_pos{this, "InitialTrackError_Pos", 10*Acts::UnitConstants::um,
                                                   "Track error estimate, local position (mm)."};
-  Gaudi::Property<double> m_initialTrackError_phi{this, "InitialTrackError_Phi", 1_degree,
+  Gaudi::Property<double> m_initialTrackError_phi{this, "InitialTrackError_Phi", 1*Acts::UnitConstants::degree,
                                                   "Track error estimate, phi (radians)."};
   Gaudi::Property<double> m_initialTrackError_relP{this, "InitialTrackError_RelP", 0.25,
                                                    "Track error estimate, momentum component (relative)."};
-  Gaudi::Property<double> m_initialTrackError_lambda{this, "InitialTrackError_Lambda", 1_degree,
+  Gaudi::Property<double> m_initialTrackError_lambda{this, "InitialTrackError_Lambda", 1*Acts::UnitConstants::degree,
                                                      "Track error estimate, lambda (radians)."};
   Gaudi::Property<double> m_initialTrackError_time{this, "InitialTrackError_Time", 100 * Acts::UnitConstants::ns,
                                                    "Track error estimate, time (sec)."};
