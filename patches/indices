@@ -1,0 +1,16 @@
+Bottom: 53b32501bc6535f04a24db49c7be3c71d424d212
+Top:    53b32501bc6535f04a24db49c7be3c71d424d212
+Author: sss <sss@karma>
+Date:   2026-01-09 16:50:46 -0500
+
+Fix warnings seen with gcc16.
+
+VariableSizeMeasurement::subspaceIndices only works if the requested
+dimension matches that of the VariableMeasurement.  However, this was enforced
+only with an assertion, leading to compilation warnings when the function
+was instantiated with a bad requested size.
+
+Split into two templates, via a requires clause.  The first is for the
+case where the requested dimension is correct, and actually implements
+the method.  The second is for the case where the requested dimension
+is incorrect, and simply aborts.
