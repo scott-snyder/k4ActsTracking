@@ -1,6 +1,6 @@
-Bottom: 298752b25dca4c51248dfdf7ecbbc21e62be0b50
-Top:    bdbeb9f8126cf7dffc63d9609a135d2600b5ad37
+Bottom: 10e2a3b3eb54e329747b3c2a91d5f41528394c07
+Top:    a0e13905e75fd566512fd70df7f89bcb7be10603
 Author: sss <sss@karma>
-Date:   2025-12-10 13:44:43 -0500
+Date:   2026-01-08 22:24:26 -0500
 
 Allow GeoSvc to return const Detector pointer.
