@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "9f4d5962d88add18271e872fb68467e13e46fca0",
-  "head": "fd2f114a57ac0a2fca5ff1846111b3f24b2bede1",
-  "applied": [],
+  "prev": "83693939a6391146da706a00af15cf5f8a95d94d",
+  "head": "91b3c6d57c3aaee1dd6669c6c8719ac02eb8b836",
+  "applied": [
+    "cmakewarn"
+  ],
   "unapplied": [
-    "cmakewarn",
     "constGeo",
     "clang",
     "cxx26",
@@ -17,7 +18,7 @@
       "oid": "32df9c81f6bee87bcb991ece1d12c0852a8aaede"
     },
     "cmakewarn": {
-      "oid": "6b9c6a4817b1d5c1f679f8d5042d4c127587ddab"
+      "oid": "91b3c6d57c3aaee1dd6669c6c8719ac02eb8b836"
     },
     "constGeo": {
       "oid": "f47ebd097544442e16f1bcde3048aaa283720e8c"
