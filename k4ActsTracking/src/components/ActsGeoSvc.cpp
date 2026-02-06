@@ -40,7 +40,9 @@ using namespace Gaudi;
 
 DECLARE_COMPONENT(ActsGeoSvc)
 
-ActsGeoSvc::ActsGeoSvc(const std::string& name, ISvcLocator* svc) : base_class(name, svc) {}
+ActsGeoSvc::ActsGeoSvc(const std::string& name, ISvcLocator* svc) : base_class(name, svc),
+  m_trackingGeoCtx (Acts::GeometryContext::dangerouslyDefaultConstruct())
+{}
 
 StatusCode ActsGeoSvc::initialize() {
   m_dd4hepGeo = svcLocator()->service<IGeoSvc>(m_geoSvcName)->getDetector();
