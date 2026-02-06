@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "9dd5370e53243f64caeacca0c38b6808eb262629",
-  "head": "62a8f921e5d4928160da2215a6aa657b444379b2",
+  "prev": "24de09ca02cd4bb76e0010d39c47e5830026e3d2",
+  "head": "b8314a541edd000dbc885365acb404e55b981cdb",
   "applied": [
     "cmakewarn",
     "constGeo",
     "clang",
     "cxx26",
     "uninit",
-    "indices"
+    "indices",
+    "depr"
   ],
   "unapplied": [],
   "hidden": [],
@@ -24,6 +25,9 @@
     },
     "cxx26": {
       "oid": "b2784ab0512dc7401b48102a176b207ed508211d"
+    },
+    "depr": {
+      "oid": "b8314a541edd000dbc885365acb404e55b981cdb"
     },
     "indices": {
       "oid": "62a8f921e5d4928160da2215a6aa657b444379b2"
