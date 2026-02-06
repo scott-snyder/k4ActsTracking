@@ -1,13 +1,13 @@
 {
   "version": 5,
-  "prev": "96b31aad21fc6e4211875236cef4d5b39410b96c",
-  "head": "fa7f20dbf18f1615d25486113aaebe7593db0ba4",
+  "prev": "72912e75c8913ada8b39914292085760eb2267c9",
+  "head": "4b7653abf5fe77aa690aba1277565ccba935ff4f",
   "applied": [
-    "cmakewarn"
+    "cmakewarn",
+    "constGeo",
+    "clang"
   ],
   "unapplied": [
-    "constGeo",
-    "clang",
     "cxx26",
     "uninit",
     "indices"
@@ -15,13 +15,13 @@
   "hidden": [],
   "patches": {
     "clang": {
-      "oid": "32df9c81f6bee87bcb991ece1d12c0852a8aaede"
+      "oid": "4b7653abf5fe77aa690aba1277565ccba935ff4f"
     },
     "cmakewarn": {
       "oid": "fa7f20dbf18f1615d25486113aaebe7593db0ba4"
     },
     "constGeo": {
-      "oid": "f47ebd097544442e16f1bcde3048aaa283720e8c"
+      "oid": "e249423154e5c9e99569cac97b5b245ebb3920ce"
     },
     "cxx26": {
       "oid": "98abe3f9a20319fdcbc06a0f6216b07652469a1d"
