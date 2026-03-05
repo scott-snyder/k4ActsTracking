@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "f4af786d208a99affecf64ff0a4b0dc24f3c68c1",
-  "head": "97c284e216668f42f1fbb65c299cf87dcc767e5a",
+  "prev": "cd9aa07c0103dcaa25aac3614a48d5c1ff5fbda0",
+  "head": "4bcd46a3312ded28022c3d05cd6c18ca92cc4d3d",
   "applied": [
     "cmakewarn",
     "constGeo",
     "clang",
-    "cxx26",
     "uninit",
     "indices",
     "depr"
@@ -23,17 +22,14 @@
     "constGeo": {
       "oid": "e3afd1137b79d6459da46479d56ac9d755160667"
     },
-    "cxx26": {
-      "oid": "84b487fe47bd52edbc2926b5d398c992ee5195ce"
-    },
     "depr": {
-      "oid": "97c284e216668f42f1fbb65c299cf87dcc767e5a"
+      "oid": "4bcd46a3312ded28022c3d05cd6c18ca92cc4d3d"
     },
     "indices": {
-      "oid": "ab2cfda6d2571a9eed70738775345c1c88230968"
+      "oid": "414db44e7780fd90a128e447714879ee437518ac"
     },
     "uninit": {
-      "oid": "a7d328ac359ad127490e572a6e27c640e0ad325c"
+      "oid": "b0c5e7896bbaca1c96d04b3a10f192eebc73430f"
     }
   }
 }
