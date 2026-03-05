@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "d5635189c6722ee3a24ce2666319f88a217bceea",
-  "head": "bfa87241a62abce738f47806a5cfe97d0813352e",
+  "prev": "8fafcd693db0c8a12aa81627e44c24bb7860714b",
+  "head": "8072e16480c080bed3f1d9bf8075f59f9c97b7f6",
   "applied": [
     "cmakewarn",
     "constGeo",
@@ -9,11 +9,15 @@
     "uninit",
     "indices",
     "depr",
-    "depr2"
+    "depr2",
+    "acts45.2"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "acts45.2": {
+      "oid": "8072e16480c080bed3f1d9bf8075f59f9c97b7f6"
+    },
     "clang": {
       "oid": "8a91a3dd566da5023f14ae46e0debf2c23cf374c"
     },
