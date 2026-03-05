@@ -1,8 +1,9 @@
 {
   "version": 5,
-  "prev": "b771e54c80cd52927ac39550f6ddbadf1a69d9a1",
-  "head": "83139ec2494ebc19e2635f3fdb77071d41719c15",
-  "applied": [
+  "prev": "e98018c37e3d77503a9bae769a1f7f891cdbfce8",
+  "head": "fd2f114a57ac0a2fca5ff1846111b3f24b2bede1",
+  "applied": [],
+  "unapplied": [
     "cmakewarn",
     "constGeo",
     "clang",
@@ -11,7 +12,6 @@
     "indices",
     "depr"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
