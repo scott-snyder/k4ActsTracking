@@ -1,16 +1,16 @@
 {
   "version": 5,
-  "prev": "d45ef607666d1ad395b9bc5e7741894b9ea1c8d8",
-  "head": "6559f93ccbd3032bbddf36ed5401c8c39c989857",
+  "prev": "7b11a8e16e5be47abfa6df832a9e5a40f385ea7e",
+  "head": "6da44fe033cb7a18a7f140174356bf5f5b0cfba8",
   "applied": [
     "cmakewarn",
     "constGeo",
-    "clang"
-  ],
-  "unapplied": [
+    "clang",
     "uninit",
     "indices",
-    "depr",
+    "depr"
+  ],
+  "unapplied": [
     "depr2",
     "acts45.2"
   ],
@@ -29,16 +29,16 @@
       "oid": "b78335865990d2e5df147544a5d76ccb9598556a"
     },
     "depr": {
-      "oid": "4bcd46a3312ded28022c3d05cd6c18ca92cc4d3d"
+      "oid": "6da44fe033cb7a18a7f140174356bf5f5b0cfba8"
     },
     "depr2": {
       "oid": "bfa87241a62abce738f47806a5cfe97d0813352e"
     },
     "indices": {
-      "oid": "414db44e7780fd90a128e447714879ee437518ac"
+      "oid": "01de189e9c0b9b21e43395895920f88587d95ec9"
     },
     "uninit": {
-      "oid": "b0c5e7896bbaca1c96d04b3a10f192eebc73430f"
+      "oid": "cc7bc7057ec84358f623f1f50f3f4d1e2cd07c97"
     }
   }
 }
