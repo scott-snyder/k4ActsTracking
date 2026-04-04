@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "2980f288f096a5f3417e61870db37c7cda30eebd",
-  "head": "a9de3c0e132012a74fbb0d882bb14ec833449a70",
-  "applied": [],
-  "unapplied": [
+  "prev": "40b8d2c02d6dfe45a27e25cde84fe92efd326cef",
+  "head": "a99cfd5d2fb1613ffb196aee03fdd6fac9adcdb3",
+  "applied": [
     "cmakewarn",
     "constGeo",
-    "clang",
+    "clang"
+  ],
+  "unapplied": [
     "uninit",
     "indices",
     "depr",
@@ -19,13 +20,13 @@
       "oid": "4ec026aa1a4c91abb9b62b02fbc1f6b7ff608a6f"
     },
     "clang": {
-      "oid": "8a91a3dd566da5023f14ae46e0debf2c23cf374c"
+      "oid": "a99cfd5d2fb1613ffb196aee03fdd6fac9adcdb3"
     },
     "cmakewarn": {
-      "oid": "4ac5d4c6ed2184ef2dad068309d8899f85826937"
+      "oid": "4589076690614362766ecd326c853c88fa19fe9d"
     },
     "constGeo": {
-      "oid": "e3afd1137b79d6459da46479d56ac9d755160667"
+      "oid": "b78335865990d2e5df147544a5d76ccb9598556a"
     },
     "depr": {
       "oid": "4bcd46a3312ded28022c3d05cd6c18ca92cc4d3d"
