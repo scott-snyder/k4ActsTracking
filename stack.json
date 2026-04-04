@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "10f11af8b222895c17d3052de52fd9743c872bc7",
+  "prev": "9d3787ce7c4939ce630149c243f4355739b119a4",
   "head": "01de189e9c0b9b21e43395895920f88587d95ec9",
   "applied": [
     "cmakewarn",
@@ -9,14 +9,9 @@
     "uninit",
     "indices"
   ],
-  "unapplied": [
-    "acts45.2"
-  ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
-    "acts45.2": {
-      "oid": "52b601244d4ba9a91a21e25ccde7485e4fd2ea9d"
-    },
     "clang": {
       "oid": "6559f93ccbd3032bbddf36ed5401c8c39c989857"
     },
