@@ -1,20 +1,20 @@
 {
   "version": 5,
-  "prev": "da65845a2a71c32b7f08d1c78fcbb2e02a301c7e",
-  "head": "b4be641588ccb5e73765f9cd17ecac9afd912595",
+  "prev": "b7b60b108ca282b0b44b61a7cc87628d2a5f1167",
+  "head": "c960e709935935bc818d7422640aaaec9f4e6a3d",
   "applied": [
     "cmakewarn",
-    "constGeo"
+    "constGeo",
+    "clang"
   ],
   "unapplied": [
-    "clang",
     "uninit",
     "indices"
   ],
   "hidden": [],
   "patches": {
     "clang": {
-      "oid": "6559f93ccbd3032bbddf36ed5401c8c39c989857"
+      "oid": "c960e709935935bc818d7422640aaaec9f4e6a3d"
     },
     "cmakewarn": {
       "oid": "e7e7e7df66ea3d39090d3c424a7da566be3cbda6"
