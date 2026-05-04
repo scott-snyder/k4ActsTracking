@@ -1,8 +1,0 @@
-Bottom: b542d8473cc4253ad8ef5ae2eef2e02a29c07b3e
-Top:    b542d8473cc4253ad8ef5ae2eef2e02a29c07b3e
-Author: sss <sss@karma>
-Date:   2026-05-04 19:02:26 -0400
-
-Fix clang warnings.
-
- - Unused private data members.
