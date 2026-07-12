@@ -28,7 +28,11 @@ SET( ${PROJECT_NAME}_VERSION  "${${PROJECT_NAME}_VERSION_MAJOR}.${${PROJECT_NAME
 
 include(cmake/MaybeBuildActs.cmake)
 
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0167 NEW)
+
 find_package(EDM4HEP REQUIRED)
+
 find_package(k4FWCore REQUIRED)
 find_package(Acts REQUIRED COMPONENTS Core PluginDD4hep)
 find_package(DD4hep REQUIRED COMPONENTS DDCore DDRec)
