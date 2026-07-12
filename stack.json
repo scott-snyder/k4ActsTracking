@@ -1,10 +1,9 @@
 {
   "version": 5,
-  "prev": "17ad6d015861bfd56c7828bf1730bee579967f40",
-  "head": "2cf6a7ec41e18f17798c7687ad3b539eb26cfd62",
+  "prev": "ec65870cfc34a7c7562a4d350a2cce431bef0c8d",
+  "head": "457b9e83dc449b5552732d58b5a1e91304e9521f",
   "applied": [
     "cmakewarn",
-    "uninit",
     "indices"
   ],
   "unapplied": [],
@@ -14,10 +13,7 @@
       "oid": "9039f5e65b7fd450aa5c7c26a0948f82140d4425"
     },
     "indices": {
-      "oid": "2cf6a7ec41e18f17798c7687ad3b539eb26cfd62"
-    },
-    "uninit": {
-      "oid": "b60851590e222c3dae7462a17da63119986fb6b5"
+      "oid": "457b9e83dc449b5552732d58b5a1e91304e9521f"
     }
   }
 }

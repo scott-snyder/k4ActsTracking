@@ -1,6 +1,0 @@
-Bottom: 3046780937b450257bf6e27a81c703f466b16fd7
-Top:    3046780937b450257bf6e27a81c703f466b16fd7
-Author: sss <sss@karma>
-Date:   2026-07-12 19:51:18 -0400
-
-Avoid gcc16 warning about use of an uninitialized variable.
